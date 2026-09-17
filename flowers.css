@@ -47,5 +47,25 @@ div #main{
     flex-direction: row;
     padding-left: 100px;
     padding-right: 100px;
-    gap: 155px;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+#button-2{
+    margin-right: 50px;
+}
+
+#button-1 button,
+#button-2 button{
+    width: 100px;
+    height: 60px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgb(99, 97, 97);
+    font-size: 20px;
+}
+
+#button-1 button:hover, 
+#button-2 button:hover{
+    transform: scale(1.2);
+
 }
