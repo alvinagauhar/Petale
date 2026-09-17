@@ -18,13 +18,34 @@ body{
 
 .box{
     display: flex;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 80px;
 }
 
 .box div{
     border: black 1px solid;
-    width: 400px;
-    height: 600px;
+}
+
+div #side1{
+    width: 290px;
+    height: 550px;
+}
+
+div #side2{
+    width: 290px;
+    height: 550px;
+}
+
+div #main{
+    width: 640px;
+    height: 550px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 155px;
 }
