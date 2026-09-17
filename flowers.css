@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+#topic{
+    font-family: "Gorditas", serif; /*we can change this font later lowk, this looked cute so I used this one for now */
+    font-size: 30px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 80px;
+}
+
+.box div{
+    border: black 1px solid;
+    width: 400px;
+    height: 600px;
+}
