@@ -11,20 +11,12 @@ body{
     position: fixed;
 }
 
-#topic{
-    font-family: "Gorditas", serif; /*we can change this font later lowk, this looked cute so I used this one for now */
-    font-size: 30px;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* ----------- */
 
 .box{
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 80px;
+    padding-top: 90px;
+    margin-left: 140px;
 }
 
 .box div{
@@ -33,7 +25,31 @@ body{
 
 .side1{
     width: 190px;
-    height: 550px;
+    height: 570px;
+    overflow-y: scroll;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    margin-top: 20px;
+}
+
+.side2{
+    width: 190px;
+    height: 570px;
+    overflow-y: scroll;
+}
+
+.main{
+    width: 600px;
+    height: 570px;
+}
+
+.side3{
+    width: 190px;
+    height: 570px;
     overflow-y: scroll;
 }
 
@@ -47,30 +63,24 @@ div #heading_3{
     padding-top: 10px;;
 }
 
-.side2{
-    width: 190px;
-    height: 550px;
-    overflow-y: scroll;
-}
-
-.main{
-    width: 600px;
-    height: 550px;
-}
-
-.side3{
-    width: 190px;
-    height: 550px;
-    overflow-y: scroll;
-}
+/* --------------*/
 
 .menu{
     display: flex;
     flex-direction: row;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 140px;
+    margin-right: -50px;
     justify-content: space-between;
-    padding: 0px 100px;
+}
+
+#topic{
+    font-family: "Gorditas", serif; /*we can change this font later lowk, this looked cute so I used this one for now */
+    font-size: 30px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
 }
 
 #button-2{
@@ -81,7 +91,7 @@ div #heading_3{
 #button-2 button{
     width: 100px;
     height: 60px;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(99, 97, 97);
     font-size: 20px;
 }
@@ -89,5 +99,4 @@ div #heading_3{
 #button-1 button:hover, 
 #button-2 button:hover{
     transform: scale(1.2);
-
 }
