@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #ffffff;
+    color:#530b0b;
+}
 
 
 
 #main{
    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   
 }
 
 .navbar {
@@ -18,13 +27,20 @@
     justify-content: space-between; 
     height: 15%;
     background-color: rgb(229, 166, 185);
-    border:2px solid yellow;
+    
     
 }
 #home{
+    flex:1;
     display: flex;
     height: 85%;
-    background-color: rgb(223, 204, 228);
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 10%;
+    background-color: #f3cdcd;
+
+
+  
 
 }
 
@@ -45,21 +61,25 @@
    
    
 }
-.nav-list li a{
+.nav-list li a:hover{
     color: rgb(107, 46, 46);
+    color:#ffffff;
+
 }
 
 #logo{
     border:none;
     border-radius: 50px;
     width: 70px;
-    height:80px;
+    height: 70px;
 
 }
 .nav-link{
     text-decoration: none;
     color: rgba(83, 11, 11, 0.372);
     font-size: 30px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 700;
     
 
 }
@@ -71,19 +91,19 @@
 }
 
 #text h1{
-    color:rgba(83, 11, 11, 0.372);
-    font-family:
+    color:rgb(229, 166, 185);
+    font-size: 3rem;
+    line-height:1.2;
+    font-weight:600;
+    font-family: 'fredoka',cursive,sans-serif;
+    
+    
 
 }
 #text{
+    flex:1;
     display:flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: 50vw;
-    gap:8px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #images{
