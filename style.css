@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #ffffff;
+    color:#530b0b;
+}
+
+
+
+#main{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.navbar {
+    display: flex;
+    padding: 6px 6px;
+    align-items: center;
+    justify-content: space-between; 
+    height: 15%;
+    background-color: rgb(229, 166, 185);
+    
+    
+}
+#home{
+    flex:1;
+    display: flex;
+    height: 85%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 10%;
+    background-color: #f3cdcd;
+
+
+  
+
+}
+
+.icon{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list {
+    display:flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    width: 75vw;
+   
+   
+}
+.nav-list li a:hover{
+    color: rgb(107, 46, 46);
+    color:#ffffff;
+
+}
+
+#logo{
+    border:none;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: rgba(83, 11, 11, 0.372);
+    font-size: 30px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 700;
+    
+
+}
+
+
+#logo-item {
+    margin-right: 400px;
+    margin-left: 30px;
+}
+
+#text h1{
+    color:rgb(229, 166, 185);
+    font-size: 3rem;
+    line-height:1.2;
+    font-weight:600;
+    font-family: 'fredoka',cursive,sans-serif;
+    
+    
+
+}
+#text{
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+
+#images{
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 50vw;
+    
+}
+#parcel{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.parcel-img {
+    margin-right: 10px;
+}
+.bouquet-img{
+    margin-left: -20px;
+}
