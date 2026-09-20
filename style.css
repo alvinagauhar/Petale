@@ -7,42 +7,54 @@
 
 
 
-.navbar {
-    display: flex;
-    padding: 20px 50px;
-    align-items: center;
-    justify-content: space-between; 
-    background-color: rgb(188, 10, 10);
+#main{
+   height: 100vh;
 }
 
+.navbar {
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: space-between; 
+    height: 20%
+}
+#home{
+    height: 80%;
+}
 
-
+.icon{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nav-list {
     display:flex;
     gap: 30px;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    margin-right: 10px;
+    width: 75vw;
 }
 
 #logo{
     border:none;
     border-radius: 50px;
     width: 70px;
-    height:70px;
+    height:80px;
 
 }
 .nav-link{
     text-decoration: none;
-    color: black;
+    color: rgba(83, 11, 11, 0.372);
     font-size: 30px;
+    
 
 }
 
-.start-btn {
-    margin-left: 100px;
-    padding: 5px;
-    background-color: pink;
-    border: none;
-    border-radius: 8px;
+
+#logo-item {
+    margin-right: 400px;
+    margin-left: 30px;
 }
