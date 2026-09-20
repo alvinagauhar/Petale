@@ -107,6 +107,7 @@ body {
 }
 
 #images{
+    flex: 1;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -116,6 +117,13 @@ body {
 }
 #parcel{
     display:flex;
-    justify-content: center;
     align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.parcel-img {
+    margin-right: 10px;
+}
+.bouquet-img{
+    margin-left: -20px;
 }
