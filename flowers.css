@@ -32,7 +32,9 @@ body{
     flex-direction: column;
 }
 
-img{
+.side1 img,
+.side2 img,
+.side3 img{
     margin-top: 20px;
 }
 
@@ -52,6 +54,8 @@ img{
 .main{
     width: 600px;
     height: 570px;
+    position: relative;
+    overflow: hidden;
 }
 
 .side3{
@@ -104,6 +108,7 @@ div #heading_3{
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(99, 97, 97);
     font-size: 20px;
+    background-color: lavender;
 }
 
 #button-1 button:hover, 
