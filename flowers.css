@@ -36,6 +36,10 @@ img{
     margin-top: 20px;
 }
 
+.ribbon img{
+    margin-top: 10px;
+}
+
 .side2{
     width: 190px;
     height: 570px;
@@ -51,6 +55,9 @@ img{
     width: 190px;
     height: 570px;
     overflow-y: scroll;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 div #heading_1, 
