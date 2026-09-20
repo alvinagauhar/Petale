@@ -7,6 +7,10 @@ body{
     background-color: beige;
 }
 
+.main_box{
+    position: fixed;
+}
+
 #topic{
     font-family: "Gorditas", serif; /*we can change this font later lowk, this looked cute so I used this one for now */
     font-size: 30px;
@@ -27,19 +31,37 @@ body{
     border: black 1px solid;
 }
 
-div #side1{
-    width: 290px;
+.side1{
+    width: 190px;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+div #heading_1, 
+div #heading_2, 
+div #heading_3{
+    font-family: "Gorditas", serif;
+    font-size: 20px;
+    border: 0px solid;
+    text-align: center;
+    padding-top: 10px;;
+}
+
+.side2{
+    width: 190px;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.main{
+    width: 600px;
     height: 550px;
 }
 
-div #side2{
-    width: 290px;
+.side3{
+    width: 190px;
     height: 550px;
-}
-
-div #main{
-    width: 640px;
-    height: 550px;
+    overflow-y: scroll;
 }
 
 .menu{
